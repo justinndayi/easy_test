@@ -1,0 +1,114 @@
+body {
+  font-family:sans-serif;
+  padding: 20px;
+}
+
+.accordion {
+  max-width: 600px;
+  margin: auto;
+}
+
+.accordion-item {
+  /* border: 1px solid #ccc;
+  border-radius: 4px; */
+  margin-bottom: 2px;
+  overflow: hidden;
+}
+
+.accordion-button {
+  width: 100%;
+  background-color: #f8f9fa;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-collapse {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  background-color: #fff;
+  padding: 0 1rem;
+}
+
+.accordion-collapse.open {
+  max-height: 500px;
+}
+
+.accordion-body {
+  padding: 1rem 0;
+}
+
+.chevron {
+  font-size: 2.25rem;
+  transition: transform 0.3s;
+}
+
+/* Down direction when active */
+.accordion-button.active .chevron {
+  transform: rotate(90deg);
+}
+
+/* collapse */
+
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.collapse {
+  display: none; /* Hide the collapse content by default */
+  margin-top: 20px;
+}
+
+.card-body {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.btnn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;  
+}
+
+.btnn:hover {
+  background-color: #0056b3;
+}
+
+.collapse-horizontal {
+  display: none; /* Initially hidden */
+  min-height: 120px;
+  overflow: hidden;
+  transition: width 0.3s ease; /* Smooth transition for horizontal collapse */
+}
+
+.card-bodyy {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+}
