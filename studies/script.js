@@ -22,7 +22,7 @@ buttons.forEach(button => {
 });
 
 
-// collapse
+// collapse of javascript
 
 // scripts.js
 document.addEventListener('DOMContentLoaded', function() {
