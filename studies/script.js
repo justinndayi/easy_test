@@ -84,6 +84,24 @@ function toggleDropdown() {
       }
     }
 
+    // model
+
+    function openModal() {
+    document.getElementById('exampleModal').classList.add('show');
+  }
+
+  function closeModal() {
+    document.getElementById('exampleModal').classList.remove('show');
+  }
+
+  // Optional: Close modal when clicking outside
+  window.onclick = function(event) {
+    const modal = document.getElementById('exampleModal');
+    if (event.target === modal) {
+      closeModal();
+    }
+  }
+
 
 
 
